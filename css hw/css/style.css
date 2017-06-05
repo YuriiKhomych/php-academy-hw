@@ -11,78 +11,109 @@
 	height: 1200px;
 	font-family: arial;
 }
-	header{
+header{
 		background: url(img/header.png);
 		width: 100%;
 		color: silver;
-		
-	}
-	#left_header{
+
+}
+#left_header{
 		padding: 20px 0;
 		font-family:  'PT Serif', serif;
 		float: left;
-	}
-	nav{
+}
+nav{
 		float: right;
-	}
-	nav ul li{
+}
+nav ul li{
 		float: left;
 		padding: 30px 10px;
 		font-size: 20px;
 		font-weight: bold;
 		margin: 0 2px;
 		list-style-type: none;
-	}
-	nav ul li:hover{
+}
+nav ul li:hover{
 		background:#ddd2b4;
 		color: white;
-	}
-	
-
-		section {
+}
+section {
 			padding: 0 10%;
 			width: 100%;
-		}
-		section h2{
+}
+section h2{
 			text-align: center;
 			font-size: 60px;
-			text-shadow:  1px 1px 5px black; 
+			text-shadow:  1px 1px 5px black;
 			padding: 50px;
 			color: white;
-		}
-		article{
+}
+article{
 			width: 20%;
 			margin: 32px;
 			float: left;
-		}
-		article:hover{
+}
+article:hover{
 			background:#F5F5F5;
-		} 
-		article img {
+}
+article img {
 			width: 100%;
-		}
-		main {
+}
+main {
 			width: 100%;
 			height: 20px;
 			float: left;
-		}
-		footer > article{
+}
+footer > article{
 			width: 20%;
 			margin: 32px;
 			float: left;
 
-		}
-		footer > article:hover{
+}
+footer > article:hover{
 			background:#F5F5F5;
-		} 
-		footer > article img {
+}
+footer > article img {
 			width: 100%;
-		}
+}
 
-		.article_title {
+.article_title {
 			text-align: center;
 			font-size: 20px;
 			margin: 10px;
-		}
-		
-		
+}
+.fixed{
+	position: fixed;
+	top: 100px;
+	left: 900px;
+}
+.absolute{
+	position: absolute;
+	top: 1000px;
+	left: 350px;
+	font-family: arial;
+}
+.after_absolute{
+	position: absolute;
+	top: 1100px;
+	left: 450px;
+	font-family: arial;
+}
+.div_absolute{
+	position: absolute;
+	top: 1500px;
+	left: 500px;
+	font-family: arial;
+}
+.inherited_div_absolute{
+	position: absolute;
+	top: 100px;
+	left: 150px;
+	font-family: arial;
+}
+a{
+	color: orange;
+}
+div p{
+	color: blue;
+}
