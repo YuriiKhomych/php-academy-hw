@@ -1,1 +1,4 @@
-*.pyc 
+*.pyc
+/php-academy/ENV/*
+ENV/*
+.idea
