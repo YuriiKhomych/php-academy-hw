@@ -76,4 +76,4 @@ while True:
         break
 
 
-#driver.quit()
+driver.quit()
