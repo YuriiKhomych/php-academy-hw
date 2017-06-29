@@ -1,5 +1,0 @@
-*.pyc
-/php-academy/ENV/*
-ENV/*
-.idea
-/7_python_selenium/chromedriver
