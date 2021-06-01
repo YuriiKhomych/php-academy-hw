@@ -5,4 +5,4 @@ PyQt5==5.8.2
 requests==2.18.1
 selenium==3.4.3
 sip==4.19.2
-urllib3==1.21.1
+urllib3==1.26.5
